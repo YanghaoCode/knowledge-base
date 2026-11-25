@@ -1,0 +1,57 @@
+# Python 缓存、测试与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+
+# 本地环境与配置（公开模板保留）
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# 私钥 / 本地认证材料
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# 本地日志、下载模型与缓存
+logs/
+*.log
+models/
+ai_models/
+modelscope_cache/
+modelscope_cachessss/
+huggingface_cache/
+.cache/
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.pth
+
+# 系统与编辑器本地文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 项目技能和 Spec Kit 文件有意保留：.agents/、.specify/
